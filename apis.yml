@@ -1,8 +1,16 @@
 aid: autostore
 name: AutoStore
-description: 'AutoStore is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: logistics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'AutoStore is a global warehouse robotics and technology company headquartered
+  in Nedre Vats, Norway, that pioneered the cube storage automated storage and retrieval
+  system (AS/RS). Its goods-to-person solution combines autonomous robots, an aluminum
+  storage grid of stacked bins, workstation ports, and controlling software (marketed
+  as CubeVerse, spanning design, simulation, operations, and predictive diagnostics)
+  to fulfill orders in a fraction of the floor space of conventional warehouses. With
+  more than 1,950 systems deployed across nearly 65 countries, AutoStore serves retail,
+  grocery, 3PL, healthcare, and industrial customers. Systems are distributed, designed,
+  installed, and serviced through a global network of qualified system integrators
+  rather than a public developer/API program. AutoStore was surfaced as a portfolio
+  company of SoftBank Vision Fund and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/autostore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,48 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.autostoresystem.com/favicon.ico
 tags:
 - Company
 - Logistics
+- Warehouse Automation
+- Robotics
+- Supply Chain
+- Fulfillment
+- Intralogistics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/autostore-domain-security.yml
+- type: Website
+  url: https://www.autostoresystem.com/
+- type: Blog
+  url: https://www.autostoresystem.com/insights
+- type: Support
+  url: https://www.autostoresystem.com/solution-faqs
+- type: ContactUs
+  url: https://www.autostoresystem.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
